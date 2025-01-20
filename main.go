@@ -1,15 +1,16 @@
 //Mahmoud Sakalla
-//Simple Calculator Program, takes two numbers and performs the desired operation
+//Simple Calculator Program, this takes two numbers and performs the desired operation
 
 package main
 
 import "fmt"
 
 func main() {
+
 	var num1, num2 float64
 	var operator string
 
-	fmt.Println("Simple Calculator in Go")
+	fmt.Println("Simple Calculator using Golang")
 	fmt.Print("Enter the first number: ")
 	fmt.Scanln(&num1)
 
